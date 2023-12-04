@@ -22,7 +22,7 @@ public class Controller1 {
     {
         List<String> dummyData = IntStream.range(0, numero).boxed()
                 .map(num ->  RandomStringUtils.random(50)).toList();
-        log.info(STR."Creados {numero} strings de 50 caracteres",numero);
+        log.info(STR."Creados \{numero} strings de 50 caracteres",numero);
         service.processMillionRecords();
     }
 }
