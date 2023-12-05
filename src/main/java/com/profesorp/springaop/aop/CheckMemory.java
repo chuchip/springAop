@@ -1,4 +1,4 @@
-package com.profesorp.springaop;
+package com.profesorp.springaop.aop;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

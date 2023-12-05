@@ -1,4 +1,4 @@
-package com.profesorp.springaop;
+package com.profesorp.springaop.exception;
 
 
 public class LowMemoryException extends RuntimeException {
