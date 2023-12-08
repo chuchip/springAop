@@ -1,6 +1,7 @@
 package com.profesorp.springaop.controller;
 
 import com.profesorp.springaop.service.TestService;
+import com.profesorp.springaop.service.TestServiceImpl;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
