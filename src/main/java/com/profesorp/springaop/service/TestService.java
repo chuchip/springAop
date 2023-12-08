@@ -24,7 +24,7 @@ public class TestService {
     }
     public  String doSomethingWithParams(String param1)
     {
-        log.info("I've received the param {} ",param1);
-        return "I've received the param "+param1;
+        log.info("I've received the param `{}` ",param1);
+        return "\nI've received the param '"+param1+"'";
     }
 }

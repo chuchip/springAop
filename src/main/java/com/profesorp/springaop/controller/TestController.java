@@ -41,6 +41,6 @@ public class TestController {
     public String doSomethingWithParam(@PathVariable String param1)
     {
         String var1= service.doSomethingWithParams(param1);
-        return STR."I called doSomethingWithParams with param1 \{param1} and it returned: '\{var1}'";
+        return STR."I called doSomethingWithParams with param1 '\{param1}' and it returned: '\{var1}'";
     }
 }
